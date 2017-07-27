@@ -1,12 +1,35 @@
 {
-	"name": "node-api-test-example",
-	"main": "server.js",
-	"description": "Node API Test Example",
-	"dependencies": {
-		"body-parser": "1.0.1",
-		"express": "4.0"
-	},
-	"engines": {
-		"node": "0.10.33"
-	}
+  "name": "node-api-test-example",
+  "main": "server.js",
+  "description": "Node API Test Example",
+  "dependencies": {
+    "body-parser": "1.0.1",
+    "express": "4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": "0.10.33"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test"
+  },
+  "version": "1.0.0",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powernerd/node-api-testing-example.git"
+  },
+  "author": "kathrynmbrown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/powernerd/node-api-testing-example/issues"
+  },
+  "homepage": "https://github.com/powernerd/node-api-testing-example#readme"
 }
