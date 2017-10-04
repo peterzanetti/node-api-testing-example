@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/powernerd/node-api-testing-example.git"
+    "url": "git+https://github.com/peterzanetti/node-api-testing-example.git"
   },
   "author": "kathrynmbrown",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/powernerd/node-api-testing-example/issues"
+    "url": "https://github.com/peterzanetti/node-api-testing-example/issues"
   },
-  "homepage": "https://github.com/powernerd/node-api-testing-example#readme"
+  "homepage": "https://github.com/peterzanetti/node-api-testing-example#readme"
 }
